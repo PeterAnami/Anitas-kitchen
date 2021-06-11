@@ -1,0 +1,60 @@
+
+#image{
+  background-image: url(images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 80vh;
+}
+#image1 p{
+  text-align: center;
+  font-size: 3em;
+  font-family: ;
+  color: white;
+}
+#image1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-top: 80px;
+  
+}
+#hour p{
+  text-align: left;
+  font-size:2em;
+  font-family: ;
+  color: black;
+  padding: 0.7em;
+  border-style: none;
+  background-color: white;
+  margin: 0px 51em 0px 0px;
+  height:60px;
+
+}
+#time p{
+  text-align: left;
+  font-size:2em;
+  font-family: ;
+  color: white;
+  padding: 0.7em;
+  border-style: none;
+  background-color: rgb(230, 73, 17);
+  margin: 0px 51em 0px 0px; 
+  height: 60px;
+
+}
+.column{
+float: right;
+width:24.5%;
+padding: 0px 0.5em 0px 0px;
+border-spacing: 2px;
+margin:0px 5em 0px 0px;
+}
+.second img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-top: 10px;
+}

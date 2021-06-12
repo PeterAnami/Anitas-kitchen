@@ -88,6 +88,7 @@ nav a{
   width: 60%;
   margin-left: 20%;
 }
+/*fourth section*/
 .back-pic{
   background-image: url(images/foodsBg.jpg);
   background-repeat: no-repeat;
@@ -95,3 +96,25 @@ nav a{
   background-position: center;
 
 }
+
+.image3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20em;
+ 
+  
+}
+.image3 img{
+  
+  padding: 5em 2em 5em 2em;
+  width: 200px; background-color: #ffff;
+
+}
+.image3 a{
+
+  
+  
+  
+}
+

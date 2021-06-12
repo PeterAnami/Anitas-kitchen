@@ -80,10 +80,18 @@ nav a{
   float: right;
   max-width: 100%;
   margin-right: 35%;
+  margin: 0px;
 }
 .container1{
   display: inline-block;
   align-items: center;
   width: 60%;
   margin-left: 20%;
+}
+.back-pic{
+  background-image: url(images/foodsBg.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+
 }

@@ -1,15 +1,16 @@
-
+/*font-family: 'Padauk', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Tajawal', sans-serif;*/
 #image{
   background-image: url(images/landing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   min-height: 80vh;
 }
 #image1 p{
   text-align: center;
   font-size: 3em;
-  font-family: ;
+  font-family: 'Tajawal', sans-serif;
   color: white;
 }
 #image1 img{
@@ -23,7 +24,7 @@
 #hour p{
   text-align: left;
   font-size:2em;
-  font-family: ;
+  font-family: 'Tajawal', sans-serif;
   color: black;
   padding: 0.6em;
   border-style: none;
@@ -35,7 +36,7 @@
 #time p{
   text-align: left;
   font-size:2em;
-  font-family: ;
+  font-family: 'Tajawal', sans-serif;
   color: white;
   padding: 0.5em;
   border-style: none;
@@ -74,6 +75,7 @@ nav a{
   text-decoration: none;
   color: orange;
   font-size: 12px;
+  font-family: 'Tajawal', sans-serif;
 }
 /*third section*/
 .img-col1{
@@ -112,14 +114,10 @@ nav a{
   background-color: #ffff;
 
 }
-.image3 a{
 
-  
-  
-  
-}
 .happy h1{
 color: orange;
+font-family: 'Tajawal', sans-serif;
 }
 .happy{
   display: flex;
@@ -161,6 +159,7 @@ flex:50%;
   padding-top: 25px;
   background-color: orangered;
   color: #ffff;
+  font-family: 'Tajawal', sans-serif;
   }
 
 .footer h3{
@@ -168,6 +167,7 @@ flex:50%;
   margin-right: 40%;
   font-size: 18px;
   color: #ffff;
+  font-family: 'Tajawal', sans-serif;
 }
 .footer-col{
   
@@ -187,6 +187,7 @@ flex:50%;
 
   color: #ffff;
   font-size: 20px;
+  font-family: 'Tajawal', sans-serif;
 }
   
 .text-box input{
@@ -195,4 +196,3 @@ flex:50%;
   padding: 10px;
   font-size: 20px;
   color: rgb(226, 217, 217) ;
-}

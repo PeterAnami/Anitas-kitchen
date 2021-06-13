@@ -108,7 +108,8 @@ nav a{
 .image3 img{
   
   padding: 5em 2em 5em 2em;
-  width: 200px; background-color: #ffff;
+  width: 200px;
+  background-color: #ffff;
 
 }
 .image3 a{
@@ -147,14 +148,51 @@ flex:50%;
 /*footer*/
 .footer{
   background-image: url(images/logo_white.png);
-  background-position: center;
+
+  background-position: 43%;
   background-repeat: no-repeat;
   max-height: 100vh;
-  background-color: orangered;
 }
-.footer h1{
- text-align: right; 
- margin-right: 42%;
- font-size: 30px;
+  
+.footer{
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+  padding-top: 25px;
+  background-color: orangered;
+  color: #ffff;
+  }
 
+.footer h3{
+  text-align: right; 
+  margin-right: 40%;
+  font-size: 18px;
+  color: #ffff;
+}
+.footer-col{
+  
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.text-box{
+  width: 100%;
+  margin-top: 24%;
+  text-align: center;
+  padding-top: 25px;
+}
+.title h3{
+
+  color: #ffff;
+  font-size: 20px;
+}
+  
+.text-box input{
+  border: none;
+  background:orangered;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(226, 217, 217) ;
 }

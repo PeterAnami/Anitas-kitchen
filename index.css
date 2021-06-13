@@ -51,7 +51,7 @@ padding: 0px 0.5em 0px 0px;
 border-spacing: 2px;
 margin:0px 5em 0px 0px;
 }
-/*second secion*/
+/*second section*/
 .container{
   display: flex;
   align-items: center;
@@ -143,4 +143,18 @@ flex:50%;
   margin-right: 12%;
   margin-top: 0.5%;
   
+}
+/*footer*/
+.footer{
+  background-image: url(images/logo_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  background-color: orangered;
+}
+.footer h1{
+ text-align: right; 
+ margin-right: 42%;
+ font-size: 30px;
+
 }

@@ -210,11 +210,14 @@ flex:50%;
   background:orangered;
   padding: 10px;
   font-size: 20px;
-  color: rgb(226, 217, 217) ;}
+  color: rgb(226, 217, 217) ;
+}
+
   @media screen and(max-height:400px){
   .overlay a {font-size:20px}
-  .overlay.closebtn
+  .overlay.closebtn{
     font-size: 40px;
     top:15px;
     right:35px;
+  }
   }

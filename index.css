@@ -1,6 +1,21 @@
 /*font-family: 'Padauk', sans-serif;
 font-family: 'Rajdhani', sans-serif;
 font-family: 'Tajawal', sans-serif;*/
+all-body{
+  max-width: 200px;
+}
+#type{
+  display: flex;
+
+}
+#td{
+  text-align: center;
+}
+.type{
+  margin: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
 #image{
   background-image: url(images/landing.jpg);
   background-repeat: no-repeat;
@@ -195,4 +210,11 @@ flex:50%;
   background:orangered;
   padding: 10px;
   font-size: 20px;
-  color: rgb(226, 217, 217) ;
+  color: rgb(226, 217, 217) ;}
+  @media screen and(max-height:400px){
+  .overlay a {font-size:20px}
+  .overlay.closebtn
+    font-size: 40px;
+    top:15px;
+    right:35px;
+  }
